@@ -105,11 +105,11 @@ public class SetActivity extends Activity {
       Toast.makeText(this, getString(R.string.set_other_locale_code), Toast.LENGTH_SHORT).show();
     }).getRoot());
     // 关于
-    setActivity.setAbout.addView(PublicTools.createTextCard(this, getString(R.string.set_about_website), () -> PublicTools.startUrl(this, "https://github.com/eiyooooo/Easycontrol_For_Car")).getRoot());
-    setActivity.setAbout.addView(PublicTools.createTextCard(this, getString(R.string.set_about_how_to_use), () -> PublicTools.startUrl(this, "https://github.com/eiyooooo/Easycontrol_For_Car/blob/main/HOW_TO_USE.md")).getRoot());
-    setActivity.setAbout.addView(PublicTools.createTextCard(this, getString(R.string.set_about_privacy), () -> PublicTools.startUrl(this, "https://github.com/eiyooooo/Easycontrol_For_Car/blob/main/PRIVACY.md")).getRoot());
-    setActivity.setAbout.addView(PublicTools.createTextCard(this, getString(R.string.set_about_version) + BuildConfig.VERSION_NAME, () -> PublicTools.startUrl(this, "https://github.com/eiyooooo/Easycontrol_For_Car/releases")).getRoot());
-    setActivity.setAbout.addView(PublicTools.createTextCard(this, getString(R.string.car_version_message), () -> PublicTools.startUrl(this, "https://github.com/eiyooooo/Easycontrol_For_Car")).getRoot());
+    setActivity.setAbout.addView(PublicTools.createTextCard(this, getString(R.string.set_about_website), () -> PublicTools.startUrl(this, "https://liujinge.cn")).getRoot());
+    setActivity.setAbout.addView(PublicTools.createTextCard(this, getString(R.string.set_about_how_to_use), () -> PublicTools.startUrl(this, "https://liujinge.cn")).getRoot());
+    setActivity.setAbout.addView(PublicTools.createTextCard(this, getString(R.string.set_about_privacy), () -> PublicTools.startUrl(this, "https://liujinge.cn")).getRoot());
+    setActivity.setAbout.addView(PublicTools.createTextCard(this, getString(R.string.set_about_version) + BuildConfig.VERSION_NAME, () -> PublicTools.startUrl(this, "https://liujinge.cns")).getRoot());
+    setActivity.setAbout.addView(PublicTools.createTextCard(this, getString(R.string.car_version_message), () -> PublicTools.startUrl(this, "https://liujinge.cn")).getRoot());
   }
 
   // 设置按钮监听
